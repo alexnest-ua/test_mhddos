@@ -60,7 +60,7 @@ do
             #echo $cmd_line
             echo $cmd_line $proxy_interval $threads $rpc
             cd ~/mhddos_proxy
-            python3 runner.py --debug $cmd_line $proxy_interval $threads $rpc &
+            python3 runner.py --debug $cmd_line $proxy_interval $threads $rpc&
    done
    echo -e "#####################################\n"
    sleep $restart_interval
